@@ -1,0 +1,63 @@
+[
+  {
+    "model": "question1.vehicle",
+    "pk": 1,
+    "fields": {
+      "plate": "00 ABC 99"
+    }
+  },
+  {
+    "model": "question1.vehicle",
+    "pk": 2,
+    "fields": {
+      "plate": "99 XYZ 000"
+    }
+  },
+    {
+    "model": "question1.vehicle",
+    "pk": 3,
+    "fields": {
+      "plate": "99 XYZ 003"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 1,
+    "fields": {
+      "vehicle_id": 1,
+      "latitude": 32.32,
+      "longitude": 32.32,
+      "datetime": "2019-04-03 13:27:32"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 2,
+    "fields": {
+      "vehicle_id": 1,
+      "latitude": 33.33,
+      "longitude": 33.33,
+      "datetime": "2019-04-05 04:32:17"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 3,
+    "fields": {
+      "vehicle_id": 1,
+      "latitude": 34.33,
+      "longitude": 33.33,
+      "datetime": "2021-08-29 18:32:17"
+    }
+  },
+  {
+    "model": "question1.navigationrecord",
+    "pk": 4,
+    "fields": {
+      "vehicle_id": 1,
+      "latitude": 34.33,
+      "longitude": 33.33,
+      "datetime": "2021-08-29 15:32:17"
+    }
+  }
+]
