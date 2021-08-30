@@ -3,6 +3,10 @@
 </h1>
 
 ## Question 1:
+To reach desired function in first question, you can go to `question1 > views.py`
+In `views.py` file, there is an GET endpoint which is include query from QuerySet API of Django ORM
+for first question.
+
 First of all, instead of going to the desired result using the QuerySet API in Django ORM, 
 the queries created by Django can be examined to see if better results can be obtained by 
 sending a raw SQL query.
